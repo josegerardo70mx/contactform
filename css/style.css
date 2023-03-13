@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.contact-form h1 {
+    font-size: 40px;
+    color: #333;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.contact-form {
+    width: 450px;
+    margin: 25px auto;
+    background-color: whitesmoke;
+    padding: 25px 25px;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid lightgray;
+}
+.contact-form input, .contact-form textarea {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid lightgray;
+    -webkit-transition: all .5s;
+       -moz-transition: all .5s;
+        -ms-transition: all .5s;
+         -o-transition: all .5s;
+            transition: all .5s;
+    font-family: 'Open Sans', sans-serif;
+}
+.contact-form input:focus, .contact-form textarea:focus {
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 255, 0.54);
+}
+.contact-form textarea {
+    height: 150px;
+}
+.contact-form button {
+    padding: 5px 20px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid tomato;
+    background-color: tomato;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+    margin-top: 15px;
+    -webkit-transition: all .25s;
+       -moz-transition: all .25s;
+        -ms-transition: all .25s;
+         -o-transition: all .25s;
+            transition: all .25s;
+}
+.contact-form button:hover {
+    background-color: #fff;
+    color: tomato;
+}
+
+/* Form Response Message */
+#sendingMsg {
+    width: 100%;
+    margin: 10px auto;
+    font-size: 16px;
+    padding: 16px;
+    background-color: tomato;
+    color: #fff;
+    display: none;
+}
+#responseMsg {
+    width: 100%;
+    font-size: 16px;
+}
+.error {
+    margin: 10px auto;
+    padding: 10px;
+    color: #b94a48;
+    background-color: #f2dede;
+    border: 1px solid rgba(185, 74, 72, 0.3);
+}
+.success {
+    margin: 10px auto;
+    padding: 10px;
+    color: #468847;
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+}
